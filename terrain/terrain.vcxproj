@@ -92,7 +92,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>opengl32.lib;sdl2.lib;sdl2main.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)SDL\lib\win64;$(SolutionDir)glew\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)SDL\lib\win64;$(SolutionDir)glew\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
