@@ -1,7 +1,7 @@
 # ProceduralTerrain
 Simple procedural islands with a noise texture that is used for both height map, water surface and fog.
 
-Compile with Visual Studio.
+Compile with Visual Studio. Copy SDL2.dll and glew.dll into the same folder as the exe file before running.
 
 Controls: WASD, right click to capture/uncapture mouse. While the mouse is captured you are able to steer the camera using the mouse.
 
